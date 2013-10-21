@@ -9,3 +9,5 @@ describe 'asynchronous jasmine helper', ->
     test = (done) -> setTimeout done, 10
     aCheck 'asynchronous call', test, 20
 ```
+
+[![Build Status](https://travis-ci.org/dgf/ajsh.png)](https://travis-ci.org/dgf/ajsh/)
