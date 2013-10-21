@@ -1,0 +1,24 @@
+{
+    "author": "Danny Gräf <github@dagnu.de>"
+  , "name": "ajsh"
+  , "description": "asynchronous jasmine specification helper"
+  , "version": "0.0.1"
+  , "homepage": "http://github.com/dgf/ajsh"
+  , "repository": {
+      "type": "git"
+    , "url": "git@github.com:dgf/aCheck.git"
+  }
+  , "main": "lib/aCheck.js"
+  , "scripts": {
+      "test": "cake spec"
+  }
+  , "engines": {
+      "node": ">=0.8.2"
+  }
+  , "dependencies": {
+      "coffee-script": "1.6.x"
+  }
+  , "devDependencies": {
+      "jasmine-node": "1.11.x"
+  }
+}
