@@ -2,13 +2,13 @@
     "author": "Danny Gräf <github@dagnu.de>"
   , "name": "ajsh"
   , "description": "asynchronous jasmine specification helper"
-  , "version": "0.0.1"
+  , "version": "0.1.0"
   , "homepage": "http://github.com/dgf/ajsh"
   , "repository": {
       "type": "git"
     , "url": "git@github.com:dgf/aCheck.git"
   }
-  , "main": "lib/aCheck.js"
+  , "main": "lib/ajsh.js"
   , "scripts": {
       "test": "cake spec"
   }
